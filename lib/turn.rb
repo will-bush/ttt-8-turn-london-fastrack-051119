@@ -39,5 +39,10 @@ def on_board?(num)
   end
 end
 
+#places move on board
+def move(board, index, character = "X")
+  board[index] = character
+  return board
+end
 
 
